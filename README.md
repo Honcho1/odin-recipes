@@ -1,2 +1,3 @@
 # odin-recipes
-This is just about a few recipes.
+
+This project is a basic recipe website and it is used to show my basic skills in HTML.
