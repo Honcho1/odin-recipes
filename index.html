@@ -4,16 +4,54 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>My Recipe Website</title>
   </head>
   <body>
-    <h1>Odin Recipes</h1>
+    <!-- Heading -->
+    <div class="heading-one">
+      <h1>Odin Recipes</h1>
+    </div>
+
+    <!-- List items -->
     <ul>
-      <li><a href="./recipes/salsa-chicken.html">Salsa Chicken</a></li>
-      <li><a href="./recipes/mexican-casserole.html">Mexican Casserole</a></li>
-      <li>
-        <a href="./recipes/mexican-mostaccioli.html">Mexican Mostaccioli</a>
-      </li>
+      <div class="list-items">
+        <div class="list-item list-item-one">
+          <li>
+            <a class="recipe-link" href="./recipes/salsa-chicken.html"
+              ><img
+                class="home-img home-salsa-img"
+                src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fpublic-assets.meredithcorp.io%2F652e28b0334bcc021903c6850b4673a1%2F1663461117181105B8-3870-4A64-853D-CD27ECA2140D.jpeg&q=60&c=sc&orient=true&poi=auto&h=512"
+                alt="salsa-chicken-image"
+            /></a>
+            <h3 class="list-item-heading">Salsa Chicken</h3>
+          </li>
+        </div>
+
+        <div class="list-item list-item-two">
+          <li>
+            <a class="recipe-link" href="./recipes/mexican-casserole.html"
+              ><img
+                class="home-img home-casserole-img"
+                src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8478805.jpg&q=60&c=sc&orient=true&poi=auto&h=512"
+                alt="mexican-casserole-image"
+            /></a>
+            <h3 class="list-item-heading">Mexican Casserole</h3>
+          </li>
+        </div>
+
+        <div class="list-item list-item-three">
+          <li>
+            <a class="recipe-link" href="./recipes/mexican-mostaccioli.html"
+              ><img
+                class="home-img home-mostaccioli-img"
+                src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8312920.jpg&q=60&c=sc&orient=true&poi=auto&h=512"
+                alt="mexican-mostaccioli-image"
+            /></a>
+            <h3 class="list-item-heading">Mexican Mostaccioli</h3>
+          </li>
+        </div>
+      </div>
     </ul>
   </body>
 </html>

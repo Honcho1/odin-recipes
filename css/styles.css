@@ -1,0 +1,77 @@
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@200;300;400;800&family=Montserrat:wght@300;400;800&family=Roboto:wght@400;900&display=swap");
+
+/* Colours */
+body {
+  background-color: #ecf39e7a;
+  box-sizing: border-box;
+}
+
+/* Headings */
+.heading-one {
+  color: #132a13;
+  font-family: "Chivo Mono", monospace;
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+  text-transform: uppercase;
+}
+.list-item-heading {
+  color: #4f772d;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.recipe-heading {
+  font-family: "Chivo Mono", monospace;
+  font-weight: 800;
+}
+
+.list-items {
+  text-align: center;
+}
+.recipe-link {
+  text-decoration: none;
+}
+
+.list-item {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 2rem;
+}
+
+.home-img {
+  width: 300px;
+  height: 300px;
+}
+
+.recipes-img {
+  text-align: center;
+}
+.recipe-image {
+  width: 40%;
+  height: auto;
+}
+
+.recipe-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.btn {
+  border-radius: 0.8rem;
+  color: #fff;
+  background-color: #31572c;
+  padding: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.home-button {
+  text-decoration: none;
+  color: #fff;
+}
+.btn:hover {
+  background-color: #496a81;
+}
